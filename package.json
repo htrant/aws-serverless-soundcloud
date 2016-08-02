@@ -10,6 +10,7 @@
     "url": ""
   },
   "dependencies": {
+    "aws-sdk": "^2.4.11",
     "dotenv": "^2.0.0",
     "request": "^2.74.0",
     "request-promise": "^4.1.0"
