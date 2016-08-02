@@ -1,0 +1,13 @@
+{
+  "name": "aws-servereless",
+  "version": "0.0.1",
+  "description": "Serverless framework with AWS Lambda function and API Gateway",
+  "author": "trunghieu138",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {}
+}
