@@ -1,0 +1,27 @@
+{
+  "name": "get-tracks",
+  "runtime": "nodejs4.3",
+  "description": "Get all tracks from user",
+  "customName": false,
+  "customRole": false,
+  "handler": "functions/get-tracks/handler.handler",
+  "timeout": 6,
+  "memorySize": 1024,
+  "authorizer": {},
+  "custom": {
+    "excludePatterns": []
+  },
+  "endpoints": [],
+  "events": [],
+  "environment": {
+    "SERVERLESS_PROJECT": "${project}",
+    "SERVERLESS_STAGE": "${stage}",
+    "SERVERLESS_REGION": "${region}",
+    "SC_CLIENT_ID": "$${soundcloudClientId}",
+    "SC_API_ENDPOINT": "$${soundcloudApiEndpoint}"
+  },
+  "vpc": {
+    "securityGroupIds": [],
+    "subnetIds": []
+  }
+}
