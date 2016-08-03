@@ -11,12 +11,17 @@ const scClientId = process.env.SC_CLIENT_ID;
 
 module.exports.handler = (event, context, cb) => {
   const options = {
-    uri: `${scApi}/users/${event.user_id}/tracks?client_id=${scClientId}`,
+    uri: `${scApi}/resolve`,
+    qs: {
+      client_id: scClientId,
+      url: event.url
+    },
     headers: {
       'User-Agent': 'Request-Promise'
     },
     json: true
   };
+
   rp(options)
       .then(response => {
         const params = {
