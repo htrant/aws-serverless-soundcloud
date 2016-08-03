@@ -7,7 +7,7 @@ const scClientId = process.env.SC_CLIENT_ID;
 
 module.exports.handler = (event, context, cb) => {
   const options = {
-    uri: `${scApi}/users/${event.user_id}/tracks`,
+    uri: `${scApi}/users/${event.id}/tracks`,
     qs: {
       client_id: scClientId
     },
