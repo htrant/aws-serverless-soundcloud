@@ -1,5 +1,5 @@
 # aws-serverless
-Get the list of Soundcloud tracks from an author by provide the author's page url. The service is powerd by [Serverless framework]() and Amazon Web Services as provider.
+Get the list of Soundcloud tracks from an artist by provide the artist's page url. The service is powerd by [Serverless framework]() and Amazon Web Services as provider, and written in node.js v4.3.
 
 ## Sample usage
 
