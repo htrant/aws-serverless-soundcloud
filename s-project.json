@@ -1,5 +1,7 @@
 {
   "name": "aws-servereless",
   "custom": {},
-  "plugins": []
+  "plugins": [
+    "serverless-cors-plugin"
+  ]
 }
