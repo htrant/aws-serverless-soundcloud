@@ -1,6 +1,6 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
-  "Description": "Deployment Serverless application to AWS via CloudFormation",
+  "Description": "Deployment ${project} to AWS via CloudFormation",
   "Resources": {
     "IamRoleLambda": {
       "Type": "AWS::IAM::Role",
