@@ -1,5 +1,5 @@
 {
-  "name": "aws-servereless",
+  "name": "aws-serverless-soundcloud",
   "custom": {},
   "plugins": [
     "serverless-cors-plugin"
